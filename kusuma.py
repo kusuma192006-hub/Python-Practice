@@ -1,15 +1,8 @@
-'''Create a Salary Calculator.
-Store:
-Basic Salary
-Bonus
-Tax
-Calculate:
-Gross Salary
-Net Salary'''
-basic_salary=50000
-bonus=40000
-tax=3000
-gross_salary=basic_salary+bonus
-net_salary=gross_salary-tax
-print("gross_salary : ", gross_salary)
-print("Net_salary : ",net_salary)
+#Take a student's USN (or roll number), name, and college name and print a student profile
+USN=input("enter your usn : ")
+name=input("enter your name : ")
+college=input("enter your college : ")
+print('\student profile')
+print(f"USN :{USN}")
+print(f"name : {name}")
+print(f"college : {college}")
