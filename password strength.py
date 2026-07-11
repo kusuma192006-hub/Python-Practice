@@ -19,5 +19,3 @@ print("digits : " , digit)
 print("special_character : " , special_character)
 if uppercase>=1 and  lowercase>=1 and digit>=1 and  special_character>=1:
     print("strong password")
-else:
-    print("weak password") 
