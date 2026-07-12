@@ -6,7 +6,7 @@ physics=95
 chemistry=96
 total=maths+bio+kannada+physics+chemistry
 average=total/5
-percentage=(total*100)/600
-print(total)
-print(average)
-print(percentage)
+percentage=(total*100)/500
+print("total : " ,total)
+print("average : " , average)
+print("percentage : " , percentage)
