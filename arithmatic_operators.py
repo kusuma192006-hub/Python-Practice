@@ -1,12 +1,8 @@
-#student marks calculator
-maths=100
-bio=99
-kannada=99
-physics=95
-chemistry=96
-total=maths+bio+kannada+physics+chemistry
-average=total/5
-percentage=(total*100)/500
-print("total : " ,total)
-print("average : " , average)
-print("percentage : " , percentage)
+#Fuel cost calculator
+distance=20
+mileage=73
+petrol_price=180
+fuel_needed=distance/mileage
+total_cost=fuel_needed*petrol_price
+print("Fuel_needed : ", fuel_needed , "L")
+print("Total_cost : ₹ " , total_cost)
