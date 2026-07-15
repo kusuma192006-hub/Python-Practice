@@ -1,5 +1,5 @@
 #Find the second largest and second samllest numbers in a list
-numbers=[1,2,3,4,5,6,7,8,9,10]
+numbers=[10,9,8,7,7,5,4,3,2,1]
 largest=max(numbers)
 smallest=min(numbers)
 second_largest=None
@@ -11,7 +11,7 @@ for num in numbers:
     if num !=smallest:
         if second_smallest is None or num<second_smallest:
             second_smallest=num
-print("The second largest number is : " , second_largest)
-print("The smallest number is : " ,   second_smallest )
+print("The second largest number is : " ,second_largest )
+print("The second smallest number is : " ,     second_smallest )
 
         
