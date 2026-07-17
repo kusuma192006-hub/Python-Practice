@@ -1,4 +1,7 @@
-#Print all elements using index values
-t=("apple","banana","pineapple","strawberry","dragon fruit")
-for i in range(len(t)):
-    print(t[i])
+#swap two tuples
+t1=(1,2,3,4)
+t2=(5,6,7,8)
+temp=t1
+t1=t2
+t2=temp
+print(t1,t2)
