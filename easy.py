@@ -7,12 +7,18 @@ students={
     "Nandhini":8.5
 }
 print(students)
+#Print all keys
 print(students.keys())
+#Print all values
 print(students.values())
+#Print all key-value pairs
 print(students.items())
+#Remove one Student
 students.pop("Bhuvija")
 print(students)
+#Check whether a key exists
 print("Nandhini" in students)
+#Add a new student
 students["Hemavathi"]=8.9
 print(students)
 #Updating the student marks
