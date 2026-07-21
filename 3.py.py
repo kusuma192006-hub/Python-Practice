@@ -6,7 +6,7 @@ students={
     "Bhuvija":8,
     "Nandhini":8.5
 }
-highest=max(students,key=students.get)
+highest=min(students,key=students.get)
 
 print("Highest Scoring Student:", highest)
 print("Marks:", students[highest])
