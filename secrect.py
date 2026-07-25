@@ -2,8 +2,5 @@
 secret="123"
 guess=""
 while secret !=guess:
-    num=input("Enter a number : ")
-    guess=num
-    if secret ==guess:
-        break
+    guess=input("Enter a number : ")
 print(" You're Guess is correct.")
