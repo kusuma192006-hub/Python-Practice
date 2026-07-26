@@ -3,10 +3,10 @@ Successful. otherwise print account locked"""
 password=""
 correct_password="9876"
 attempts=0
-while password!=correct_password and attempts<3 :
-    password=input("Enter the correct password : ")
+while password !=correct_password and attempts<3:
+    password=input("Enter a correct password : ")
     attempts+=1
 if password==correct_password:
-    print("Login Successfully. ")
+    print("Login Successfully.")
 else:
     print("Account Locked.")
